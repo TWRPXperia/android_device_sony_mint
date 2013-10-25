@@ -18,6 +18,7 @@
 $(call inherit-product, device/sony/blue-common/blue.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/sony/mint/overlay
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
